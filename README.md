@@ -7,7 +7,7 @@ The serviceURL that connects the embedded Report Viewer to a server implementati
     [containerStyle]="viewerContainerStyle"
     [serviceUrl]="'http://localhost/ReportingRestServiceCors/api/reports'"
     [reportSource]="{
-        report: 'Barcodes.trdp',
+        report: '',
         parameters: {}
     }"
     [viewMode]="'INTERACTIVE'"
